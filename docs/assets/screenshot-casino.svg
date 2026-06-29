@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0911"/><stop offset="1" stop-color="#0d0c16"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9d7bff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+    <linearGradient id="heroc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#211a3a"/><stop offset="0.55" stop-color="#171527"/><stop offset="1" stop-color="#2a1530"/></linearGradient>
+    <radialGradient id="hgp" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7c5cff" stop-opacity="0.45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="hgk" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff4d8d" stop-opacity="0.4"/><stop offset="1" stop-color="#ff4d8d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#page)"/>
+
+  <!-- ===== Sidebar ===== -->
+  <rect x="0" y="0" width="240" height="800" fill="#0d0c16"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#fff" stroke-opacity="0.05"/>
+  <g transform="translate(20,22)">
+    <rect width="34" height="34" rx="9" fill="#0d0c16" stroke="url(#brand)" stroke-width="1.5"/>
+    <text x="10" y="24" font-size="20" font-weight="900" fill="url(#brand)">C</text>
+    <text x="46" y="25" font-size="22" font-weight="800" fill="#fff">Cr<tspan fill="url(#brand)">ow</tspan></text>
+  </g>
+  <g font-size="14" font-weight="600">
+    <text x="44" y="103" fill="#94a3b8">Home</text><circle cx="28" cy="98" r="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="44" y="148" fill="#94a3b8">Sports</text><circle cx="28" cy="143" r="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="178" y="130" width="42" height="20" rx="6" fill="#ff3b5c" fill-opacity="0.15"/><text x="186" y="144" font-size="10" fill="#ff3b5c" font-weight="700">LIVE</text>
+    <rect x="14" y="168" width="212" height="40" rx="11" fill="#171527"/><rect x="14" y="168" width="3" height="40" rx="2" fill="#7c5cff"/>
+    <text x="44" y="193" fill="#fff">Casino</text><rect x="22" y="180" width="12" height="12" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <text x="44" y="238" fill="#94a3b8">Crash</text><path d="M22 240 l5-6 4 4 6-9" stroke="#7c5cff" stroke-width="1.6" fill="none"/>
+    <text x="44" y="283" fill="#94a3b8">X-Roulette</text><circle cx="28" cy="278" r="6" fill="none" stroke="#00e701" stroke-width="1.5"/>
+    <text x="44" y="328" fill="#94a3b8">Jackpot</text><path d="M28 318 l2 5 5 .5 -4 4 1 5 -4 -3 -4 3 1 -5 -4 -4 5 -.5z" fill="#ffb800"/>
+    <text x="44" y="373" fill="#94a3b8">Rewards</text><rect x="22" y="362" width="12" height="10" rx="2" fill="none" stroke="#ff4d8d" stroke-width="1.5"/>
+  </g>
+  <rect x="14" y="420" width="212" height="86" rx="14" fill="#12111f" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="30" y="448" font-size="12.5" font-weight="700" fill="#fff">🛡 Provably Fair</text>
+  <text x="30" y="470" font-size="11" fill="#64748b">Every round verifiable</text>
+  <text x="30" y="486" font-size="11" fill="#64748b">with SHA-256 seeds.</text>
+
+  <!-- ===== Topbar ===== -->
+  <rect x="240" y="0" width="1040" height="64" fill="#0d0c16"/>
+  <line x1="240" y1="64" x2="1280" y2="64" stroke="#fff" stroke-opacity="0.05"/>
+  <rect x="268" y="16" width="340" height="34" rx="10" fill="#171527"/>
+  <text x="296" y="38" font-size="13" fill="#64748b">Search games, teams, markets…</text>
+  <rect x="900" y="14" width="120" height="38" rx="11" fill="#171527"/>
+  <text x="918" y="32" font-size="13" font-family="JetBrains Mono, monospace" font-weight="700" fill="#fff">10,000.00</text>
+  <text x="918" y="46" font-size="9" fill="#64748b">CREDITS</text>
+  <rect x="1032" y="14" width="104" height="38" rx="11" fill="#00e701"/><text x="1052" y="38" font-size="13" font-weight="800" fill="#000">+ Deposit</text>
+  <rect x="1148" y="14" width="110" height="38" rx="11" fill="#171527"/>
+  <circle cx="1168" cy="33" r="13" fill="#7c5cff"/><text x="1163" y="38" font-size="12" font-weight="700" fill="#fff">D</text>
+  <text x="1188" y="30" font-size="12" font-weight="700" fill="#fff">demo</text><text x="1188" y="44" font-size="10" fill="#ffb800">Lvl 1</text>
+
+  <!-- ===== Hero banner ===== -->
+  <rect x="268" y="86" width="984" height="150" rx="22" fill="url(#heroc)" stroke="#fff" stroke-opacity="0.06"/>
+  <circle cx="360" cy="150" r="150" fill="url(#hgp)"/>
+  <circle cx="1140" cy="160" r="180" fill="url(#hgk)"/>
+  <rect x="296" y="110" width="150" height="24" rx="12" fill="#7c5cff" fill-opacity="0.14"/>
+  <text x="311" y="126" font-size="11" font-weight="700" fill="#c4b5fd">🎲 CASINO LOBBY</text>
+  <text x="294" y="178" font-size="40" font-weight="900" fill="#fff">Casino</text>
+  <text x="294" y="208" font-size="14" font-weight="500" fill="#cbd5e1">Originals built in-house plus 3,000+ slots and live tables from top providers.</text>
+
+  <!-- ===== Category filter chips ===== -->
+  <g font-size="13" font-weight="700">
+    <rect x="268" y="252" width="98" height="34" rx="11" fill="#7c5cff"/><text x="317" y="274" fill="#fff" text-anchor="middle">All Games</text>
+    <rect x="376" y="252" width="128" height="34" rx="11" fill="#171527"/><text x="440" y="274" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+    <rect x="514" y="252" width="74" height="34" rx="11" fill="#171527"/><text x="551" y="274" fill="#94a3b8" text-anchor="middle">Slots</text>
+    <rect x="598" y="252" width="106" height="34" rx="11" fill="#171527"/><text x="651" y="274" fill="#94a3b8" text-anchor="middle">Live Casino</text>
+    <rect x="714" y="252" width="116" height="34" rx="11" fill="#171527"/><text x="772" y="274" fill="#94a3b8" text-anchor="middle">Table Games</text>
+  </g>
+
+  <!-- ===== Game grid (6 cols x 2 rows) ===== -->
+  <defs>
+    <linearGradient id="t01" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t02" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00e701" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t03" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4d8d" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t04" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffb800" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t05" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t06" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a855f7" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t07" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f97316" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t08" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16a34a" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t09" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eab308" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t10" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ec4899" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t11" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef4444" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <linearGradient id="t12" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#facc15" stop-opacity="0.35"/><stop offset="0.6" stop-color="#12111f"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+  </defs>
+
+  <!-- Row 1 -->
+  <g>
+    <!-- Crash -->
+    <rect x="268" y="300" width="145" height="190" rx="15" fill="url(#t01)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="350" y="312" width="50" height="20" rx="7" fill="#7c5cff" fill-opacity="0.2"/><text x="375" y="326" font-size="9" font-weight="800" fill="#a78bfa" text-anchor="middle">LIVE</text>
+    <rect x="313" y="346" width="56" height="56" rx="14" fill="#7c5cff"/><text x="341" y="384" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">C</text>
+    <text x="341" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Crash</text>
+    <text x="341" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- X-Roulette -->
+    <rect x="428" y="300" width="145" height="190" rx="15" fill="url(#t02)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="510" y="312" width="50" height="20" rx="7" fill="#00e701" fill-opacity="0.2"/><text x="535" y="326" font-size="9" font-weight="800" fill="#3dff7a" text-anchor="middle">LIVE</text>
+    <rect x="473" y="346" width="56" height="56" rx="14" fill="#00e701"/><text x="501" y="384" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">X</text>
+    <text x="501" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">X-Roulette</text>
+    <text x="501" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- Dice -->
+    <rect x="588" y="300" width="145" height="190" rx="15" fill="url(#t03)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="658" y="312" width="62" height="20" rx="7" fill="#ff4d8d" fill-opacity="0.2"/><text x="689" y="326" font-size="9" font-weight="800" fill="#ff7aaa" text-anchor="middle">INSTANT</text>
+    <rect x="633" y="346" width="56" height="56" rx="14" fill="#ff4d8d"/><text x="661" y="384" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">D</text>
+    <text x="661" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Dice</text>
+    <text x="661" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- Jackpot -->
+    <rect x="748" y="300" width="145" height="190" rx="15" fill="url(#t04)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="828" y="312" width="50" height="20" rx="7" fill="#ffb800" fill-opacity="0.2"/><text x="853" y="326" font-size="9" font-weight="800" fill="#ffcb47" text-anchor="middle">POOL</text>
+    <rect x="793" y="346" width="56" height="56" rx="14" fill="#ffb800"/><text x="821" y="384" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">J</text>
+    <text x="821" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Jackpot</text>
+    <text x="821" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- Mines -->
+    <rect x="908" y="300" width="145" height="190" rx="15" fill="url(#t05)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="978" y="312" width="62" height="20" rx="7" fill="#22d3ee" fill-opacity="0.2"/><text x="1009" y="326" font-size="9" font-weight="800" fill="#67e8f9" text-anchor="middle">99% RTP</text>
+    <rect x="953" y="346" width="56" height="56" rx="14" fill="#22d3ee"/><text x="981" y="384" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">M</text>
+    <text x="981" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Mines</text>
+    <text x="981" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- Plinko -->
+    <rect x="1068" y="300" width="145" height="190" rx="15" fill="url(#t06)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="1138" y="312" width="62" height="20" rx="7" fill="#a855f7" fill-opacity="0.2"/><text x="1169" y="326" font-size="9" font-weight="800" fill="#c084fc" text-anchor="middle">99% RTP</text>
+    <rect x="1113" y="346" width="56" height="56" rx="14" fill="#a855f7"/><text x="1141" y="384" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">P</text>
+    <text x="1141" y="448" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Plinko</text>
+    <text x="1141" y="468" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g>
+    <!-- Towers -->
+    <rect x="268" y="502" width="145" height="190" rx="15" fill="url(#t07)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="338" y="514" width="62" height="20" rx="7" fill="#f97316" fill-opacity="0.2"/><text x="369" y="528" font-size="9" font-weight="800" fill="#fb923c" text-anchor="middle">99% RTP</text>
+    <rect x="313" y="548" width="56" height="56" rx="14" fill="#f97316"/><text x="341" y="586" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">T</text>
+    <text x="341" y="650" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Towers</text>
+    <text x="341" y="670" font-size="10.5" fill="#94a3b8" text-anchor="middle">Crow Originals</text>
+
+    <!-- Blackjack -->
+    <rect x="428" y="502" width="145" height="190" rx="15" fill="url(#t08)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="510" y="514" width="50" height="20" rx="7" fill="#16a34a" fill-opacity="0.25"/><text x="535" y="528" font-size="9" font-weight="800" fill="#4ade80" text-anchor="middle">LIVE</text>
+    <rect x="473" y="548" width="56" height="56" rx="14" fill="#16a34a"/><text x="501" y="586" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">B</text>
+    <text x="501" y="650" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Blackjack</text>
+    <text x="501" y="670" font-size="10.5" fill="#94a3b8" text-anchor="middle">Evolution</text>
+
+    <!-- Gates of Olympus -->
+    <rect x="588" y="502" width="145" height="190" rx="15" fill="url(#t09)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="670" y="514" width="50" height="20" rx="7" fill="#eab308" fill-opacity="0.22"/><text x="695" y="528" font-size="9" font-weight="800" fill="#facc15" text-anchor="middle">SLOT</text>
+    <rect x="633" y="548" width="56" height="56" rx="14" fill="#eab308"/><text x="661" y="586" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">G</text>
+    <text x="661" y="646" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">Gates of Olympus</text>
+    <text x="661" y="666" font-size="10.5" fill="#94a3b8" text-anchor="middle">Pragmatic Play</text>
+
+    <!-- Sweet Bonanza -->
+    <rect x="748" y="502" width="145" height="190" rx="15" fill="url(#t10)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="830" y="514" width="50" height="20" rx="7" fill="#ec4899" fill-opacity="0.22"/><text x="855" y="528" font-size="9" font-weight="800" fill="#f472b6" text-anchor="middle">SLOT</text>
+    <rect x="793" y="548" width="56" height="56" rx="14" fill="#ec4899"/><text x="821" y="586" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">S</text>
+    <text x="821" y="646" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">Sweet Bonanza</text>
+    <text x="821" y="666" font-size="10.5" fill="#94a3b8" text-anchor="middle">Pragmatic Play</text>
+
+    <!-- Wanted Dead or a Wild -->
+    <rect x="908" y="502" width="145" height="190" rx="15" fill="url(#t11)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="990" y="514" width="50" height="20" rx="7" fill="#ef4444" fill-opacity="0.22"/><text x="1015" y="528" font-size="9" font-weight="800" fill="#f87171" text-anchor="middle">SLOT</text>
+    <rect x="953" y="548" width="56" height="56" rx="14" fill="#ef4444"/><text x="981" y="586" font-size="26" font-weight="900" fill="#fff" text-anchor="middle">W</text>
+    <text x="981" y="646" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">Wanted Dead</text>
+    <text x="981" y="666" font-size="10.5" fill="#94a3b8" text-anchor="middle">Hacksaw</text>
+
+    <!-- Lightning Roulette -->
+    <rect x="1068" y="502" width="145" height="190" rx="15" fill="url(#t12)" stroke="#fff" stroke-opacity="0.06"/>
+    <rect x="1150" y="514" width="50" height="20" rx="7" fill="#facc15" fill-opacity="0.22"/><text x="1175" y="528" font-size="9" font-weight="800" fill="#fde047" text-anchor="middle">LIVE</text>
+    <rect x="1113" y="548" width="56" height="56" rx="14" fill="#facc15"/><text x="1141" y="586" font-size="26" font-weight="900" fill="#0a0911" text-anchor="middle">L</text>
+    <text x="1141" y="646" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">Lightning Roulette</text>
+    <text x="1141" y="666" font-size="10.5" fill="#94a3b8" text-anchor="middle">Evolution</text>
+  </g>
+
+  <!-- ===== Info bar ===== -->
+  <rect x="268" y="708" width="945" height="40" rx="12" fill="#12111f" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="288" y="733" font-size="12" fill="#cbd5e1">🛡 <tspan fill="#3dff7a" font-weight="700">All Crow Originals are provably fair</tspan> — verify any round with its server seed after reveal.</text>
+
+  <!-- ===== Live ticker ===== -->
+  <rect x="240" y="772" width="1040" height="28" fill="#0d0c16"/><line x1="240" y1="772" x2="1280" y2="772" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="268" y="790" font-size="11" font-weight="800" fill="#3dff7a">● LIVE WINS</text>
+  <rect x="360" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="370" y="791" font-size="10" fill="#94a3b8">degenDan · Crash <tspan fill="#3dff7a">+1,240</tspan></text>
+  <rect x="520" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="530" y="791" font-size="10" fill="#94a3b8">moonshot · Dice <tspan fill="#3dff7a">+580</tspan></text>
+  <rect x="680" y="778" width="160" height="18" rx="5" fill="#171527"/><text x="690" y="791" font-size="10" fill="#94a3b8">cryptoKing · Roulette <tspan fill="#3dff7a">+2,800</tspan></text>
+</svg>

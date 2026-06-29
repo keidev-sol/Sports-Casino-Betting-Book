@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink-950 text-slate-200 font-sans antialiased;
+  background-image:
+    radial-gradient(900px 500px at 80% -10%, rgba(124, 92, 255, 0.12), transparent),
+    radial-gradient(700px 500px at 0% 0%, rgba(255, 77, 141, 0.08), transparent);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #242238;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2f2c47;
+}
+
+@layer components {
+  .panel {
+    @apply rounded-2xl border border-white/5 bg-ink-850/80 backdrop-blur-sm shadow-card;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-150 active:scale-[0.97] disabled:opacity-40 disabled:pointer-events-none;
+  }
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-neon-purple to-neon-pink text-white shadow-glow hover:brightness-110;
+  }
+  .btn-green {
+    @apply btn bg-neon-green text-black shadow-glow-green hover:brightness-110;
+  }
+  .btn-ghost {
+    @apply btn bg-ink-750 text-slate-200 hover:bg-ink-700;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1 text-xs font-semibold;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-semibold text-slate-400 transition-colors hover:bg-ink-800 hover:text-white;
+  }
+  .nav-item-active {
+    @apply bg-ink-800 text-white shadow-[inset_3px_0_0_0_#7c5cff];
+  }
+  .odd-btn {
+    @apply flex flex-1 flex-col items-center rounded-lg border border-white/5 bg-ink-800 px-2 py-2 transition-all hover:border-neon-purple/60 hover:bg-ink-750;
+  }
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-neon-violet to-neon-pink bg-clip-text text-transparent;
+}

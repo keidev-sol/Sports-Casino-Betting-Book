@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0911"/><stop offset="1" stop-color="#0d0c16"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9d7bff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+    <radialGradient id="wheelglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7c5cff" stop-opacity="0.35"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#page)"/>
+
+  <!-- ===== Sidebar ===== -->
+  <rect x="0" y="0" width="240" height="800" fill="#0d0c16"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#fff" stroke-opacity="0.05"/>
+  <g transform="translate(20,22)">
+    <rect width="34" height="34" rx="9" fill="#0d0c16" stroke="url(#brand)" stroke-width="1.5"/>
+    <text x="10" y="24" font-size="20" font-weight="900" fill="url(#brand)">C</text>
+    <text x="46" y="25" font-size="22" font-weight="800" fill="#fff">Cr<tspan fill="url(#brand)">ow</tspan></text>
+  </g>
+  <g font-size="14" font-weight="600">
+    <text x="44" y="103" fill="#94a3b8">Home</text><circle cx="28" cy="98" r="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="44" y="148" fill="#94a3b8">Sports</text><circle cx="28" cy="143" r="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="178" y="130" width="42" height="20" rx="6" fill="#ff3b5c" fill-opacity="0.15"/><text x="186" y="144" font-size="10" fill="#ff3b5c" font-weight="700">LIVE</text>
+    <text x="44" y="193" fill="#94a3b8">Casino</text><rect x="22" y="180" width="12" height="12" rx="3" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="44" y="238" fill="#94a3b8">Crash</text><path d="M22 240 l5-6 4 4 6-9" stroke="#7c5cff" stroke-width="1.6" fill="none"/>
+    <rect x="14" y="258" width="212" height="40" rx="11" fill="#171527"/><rect x="14" y="258" width="3" height="40" rx="2" fill="#7c5cff"/>
+    <text x="44" y="283" fill="#fff">X-Roulette</text><circle cx="28" cy="278" r="6" fill="none" stroke="#00e701" stroke-width="1.5"/>
+    <text x="44" y="328" fill="#94a3b8">Jackpot</text><path d="M28 318 l2 5 5 .5 -4 4 1 5 -4 -3 -4 3 1 -5 -4 -4 5 -.5z" fill="#ffb800"/>
+    <text x="44" y="373" fill="#94a3b8">Rewards</text><rect x="22" y="362" width="12" height="10" rx="2" fill="none" stroke="#ff4d8d" stroke-width="1.5"/>
+  </g>
+  <rect x="14" y="420" width="212" height="86" rx="14" fill="#12111f" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="30" y="448" font-size="12.5" font-weight="700" fill="#fff">🛡 Provably Fair</text>
+  <text x="30" y="470" font-size="11" fill="#64748b">Every round verifiable</text>
+  <text x="30" y="486" font-size="11" fill="#64748b">with SHA-256 seeds.</text>
+
+  <!-- ===== Topbar ===== -->
+  <rect x="240" y="0" width="1040" height="64" fill="#0d0c16"/>
+  <line x1="240" y1="64" x2="1280" y2="64" stroke="#fff" stroke-opacity="0.05"/>
+  <rect x="268" y="16" width="340" height="34" rx="10" fill="#171527"/>
+  <text x="296" y="38" font-size="13" fill="#64748b">Search games, teams, markets…</text>
+  <rect x="900" y="14" width="120" height="38" rx="11" fill="#171527"/>
+  <text x="918" y="32" font-size="13" font-family="JetBrains Mono, monospace" font-weight="700" fill="#fff">10,000.00</text>
+  <text x="918" y="46" font-size="9" fill="#64748b">CREDITS</text>
+  <rect x="1032" y="14" width="104" height="38" rx="11" fill="#00e701"/><text x="1052" y="38" font-size="13" font-weight="800" fill="#000">+ Deposit</text>
+  <rect x="1148" y="14" width="110" height="38" rx="11" fill="#171527"/>
+  <circle cx="1168" cy="33" r="13" fill="#7c5cff"/><text x="1163" y="38" font-size="12" font-weight="700" fill="#fff">D</text>
+  <text x="1188" y="30" font-size="12" font-weight="700" fill="#fff">demo</text><text x="1188" y="44" font-size="10" fill="#ffb800">Lvl 1</text>
+
+  <!-- ===== Title row ===== -->
+  <text x="268" y="118" font-size="22" font-weight="800" fill="#fff">◉ X-Roulette</text>
+  <rect x="430" y="100" width="150" height="24" rx="12" fill="#7c5cff" fill-opacity="0.12"/>
+  <text x="446" y="116" font-size="11" font-weight="700" fill="#b8a3ff">⏱ Spins every 12s</text>
+
+  <!-- ===== History row ===== -->
+  <g font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" text-anchor="middle">
+    <rect x="268" y="138" width="30" height="30" rx="8" fill="#ff3b5c"/><text x="283" y="158" fill="#fff">7</text>
+    <rect x="306" y="138" width="30" height="30" rx="8" fill="#242238"/><text x="321" y="158" fill="#fff">2</text>
+    <rect x="344" y="138" width="30" height="30" rx="8" fill="#00e701"/><text x="359" y="158" fill="#062b06">0</text>
+    <rect x="382" y="138" width="30" height="30" rx="8" fill="#ff3b5c"/><text x="397" y="158" fill="#fff">11</text>
+    <rect x="420" y="138" width="30" height="30" rx="8" fill="#242238"/><text x="435" y="158" fill="#fff">4</text>
+    <rect x="458" y="138" width="30" height="30" rx="8" fill="#ff3b5c"/><text x="473" y="158" fill="#fff">9</text>
+    <rect x="496" y="138" width="30" height="30" rx="8" fill="#242238"/><text x="511" y="158" fill="#fff">13</text>
+    <rect x="534" y="138" width="30" height="30" rx="8" fill="#ff3b5c"/><text x="549" y="158" fill="#fff">1</text>
+    <rect x="572" y="138" width="30" height="30" rx="8" fill="#242238"/><text x="587" y="158" fill="#fff">8</text>
+    <rect x="610" y="138" width="30" height="30" rx="8" fill="#00e701"/><text x="625" y="158" fill="#062b06">0</text>
+    <rect x="648" y="138" width="30" height="30" rx="8" fill="#ff3b5c"/><text x="663" y="158" fill="#fff">5</text>
+    <rect x="686" y="138" width="30" height="30" rx="8" fill="#242238"/><text x="701" y="158" fill="#fff">3</text>
+  </g>
+  <text x="1010" y="158" font-size="11" fill="#64748b" text-anchor="end">Last 12 spins</text>
+
+  <!-- ===== Wheel panel ===== -->
+  <rect x="268" y="186" width="742" height="278" rx="20" fill="#12111f" stroke="#fff" stroke-opacity="0.06"/>
+  <circle cx="639" cy="325" r="150" fill="url(#wheelglow)"/>
+  <!-- outer wheel -->
+  <circle cx="639" cy="325" r="84" fill="#171527" stroke="#7c5cff" stroke-width="2" stroke-opacity="0.5"/>
+  <circle cx="639" cy="325" r="84" fill="none" stroke="#fff" stroke-opacity="0.06" stroke-width="1"/>
+  <!-- wheel pockets accent ring -->
+  <circle cx="639" cy="325" r="84" fill="none" stroke="#ff3b5c" stroke-width="6" stroke-dasharray="14 26" stroke-opacity="0.7"/>
+  <circle cx="639" cy="325" r="84" fill="none" stroke="#00e701" stroke-width="6" stroke-dasharray="6 200" stroke-dashoffset="-90" stroke-opacity="0.8"/>
+  <!-- inner dark circle -->
+  <circle cx="639" cy="325" r="62" fill="#0d0c16" stroke="#fff" stroke-opacity="0.05"/>
+  <!-- pointer -->
+  <path d="M639 233 l-9 -16 18 0 z" fill="#7c5cff"/>
+  <!-- center countdown -->
+  <text x="639" y="312" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle">Betting closes in</text>
+  <text x="639" y="356" font-size="40" font-weight="800" fill="#fff" text-anchor="middle" font-family="JetBrains Mono, monospace">7.4s</text>
+
+  <!-- ===== Amount row panel ===== -->
+  <rect x="268" y="478" width="742" height="64" rx="16" fill="#12111f" stroke="#fff" stroke-opacity="0.06"/>
+  <text x="290" y="504" font-size="12" font-weight="700" fill="#94a3b8">Bet amount</text>
+  <rect x="290" y="494" width="110" height="34" rx="10" fill="#171527" stroke="#fff" stroke-opacity="0.07" transform="translate(0,8)"/>
+  <text x="306" y="528" font-size="16" font-weight="700" fill="#fff" font-family="JetBrains Mono, monospace">25</text>
+  <rect x="416" y="502" width="46" height="34" rx="9" fill="#1d1b30"/><text x="439" y="524" font-size="12" font-weight="700" fill="#cbd5e1" text-anchor="middle">10</text>
+  <rect x="470" y="502" width="46" height="34" rx="9" fill="#7c5cff" fill-opacity="0.18" stroke="#7c5cff" stroke-opacity="0.5"/><text x="493" y="524" font-size="12" font-weight="700" fill="#b8a3ff" text-anchor="middle">25</text>
+  <rect x="524" y="502" width="46" height="34" rx="9" fill="#1d1b30"/><text x="547" y="524" font-size="12" font-weight="700" fill="#cbd5e1" text-anchor="middle">100</text>
+  <text x="990" y="510" font-size="10.5" fill="#64748b" text-anchor="end">Balance</text>
+  <text x="990" y="528" font-size="16" font-weight="800" fill="#3dff7a" text-anchor="end" font-family="JetBrains Mono, monospace">9,975.00</text>
+
+  <!-- ===== Three bet buttons ===== -->
+  <!-- Red -->
+  <rect x="268" y="558" width="238" height="110" rx="18" fill="#ff3b5c" fill-opacity="0.15" stroke="#ff3b5c" stroke-opacity="0.4"/>
+  <text x="387" y="612" font-size="26" font-weight="900" fill="#ff3b5c" text-anchor="middle">Red 2×</text>
+  <text x="387" y="640" font-size="12" fill="#94a3b8" text-anchor="middle">Total on: <tspan fill="#ff8ba0" font-weight="700">120</tspan></text>
+
+  <!-- Green -->
+  <rect x="520" y="558" width="238" height="110" rx="18" fill="#00e701" fill-opacity="0.15" stroke="#00e701" stroke-opacity="0.4"/>
+  <text x="639" y="612" font-size="26" font-weight="900" fill="#3dff7a" text-anchor="middle">Green 14×</text>
+  <text x="639" y="640" font-size="12" fill="#94a3b8" text-anchor="middle">Total on: <tspan fill="#3dff7a" font-weight="700">0</tspan></text>
+
+  <!-- Black -->
+  <rect x="772" y="558" width="238" height="110" rx="18" fill="#1d1b30" stroke="#fff" stroke-opacity="0.08"/>
+  <text x="891" y="612" font-size="26" font-weight="900" fill="#cbd5e1" text-anchor="middle">Black 2×</text>
+  <text x="891" y="640" font-size="12" fill="#94a3b8" text-anchor="middle">Total on: <tspan fill="#cbd5e1" font-weight="700">75</tspan></text>
+
+  <!-- ===== Live ticker ===== -->
+  <rect x="240" y="772" width="1040" height="28" fill="#0d0c16"/><line x1="240" y1="772" x2="1280" y2="772" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="268" y="790" font-size="11" font-weight="800" fill="#3dff7a">● LIVE WINS</text>
+  <rect x="360" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="370" y="791" font-size="10" fill="#94a3b8">degenDan · Crash <tspan fill="#3dff7a">+1,240</tspan></text>
+  <rect x="520" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="530" y="791" font-size="10" fill="#94a3b8">moonshot · Dice <tspan fill="#3dff7a">+580</tspan></text>
+  <rect x="680" y="778" width="160" height="18" rx="5" fill="#171527"/><text x="690" y="791" font-size="10" fill="#94a3b8">cryptoKing · Roulette <tspan fill="#3dff7a">+2,800</tspan></text>
+</svg>

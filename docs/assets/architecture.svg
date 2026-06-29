@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0911"/><stop offset="1" stop-color="#12111f"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c5cff"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#00e701"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="720" fill="url(#abg)"/>
+  <text x="40" y="50" font-size="26" font-weight="800" fill="#fff">System Architecture</text>
+  <text x="40" y="76" font-size="14" fill="#64748b">Client (React SPA) ⇄ Node API + WebSocket hub ⇄ The Odds API · in-memory game engines</text>
+
+  <!-- ============ CLIENT COLUMN ============ -->
+  <g>
+    <rect x="40" y="110" width="320" height="540" rx="18" fill="#0d0c16" stroke="#7c5cff" stroke-opacity="0.4"/>
+    <text x="60" y="142" font-size="16" font-weight="800" fill="#9d7bff">CLIENT · React + Vite + Tailwind</text>
+
+    <g font-size="13" fill="#cbd5e1">
+      <rect x="60" y="160" width="280" height="56" rx="10" fill="#171527"/>
+      <text x="76" y="184" font-weight="700" fill="#fff">Pages</text>
+      <text x="76" y="204" fill="#94a3b8">Home · Sports · Casino · Crash</text>
+
+      <rect x="60" y="226" width="280" height="56" rx="10" fill="#171527"/>
+      <text x="76" y="250" font-weight="700" fill="#fff">Realtime Pages</text>
+      <text x="76" y="270" fill="#94a3b8">Roulette · Jackpot · Dice</text>
+
+      <rect x="60" y="292" width="280" height="76" rx="10" fill="#171527"/>
+      <text x="76" y="316" font-weight="700" fill="#fff">State · Zustand store</text>
+      <text x="76" y="336" fill="#94a3b8">user · balance · bet slip</text>
+      <text x="76" y="354" fill="#94a3b8">toast notifications</text>
+
+      <rect x="60" y="378" width="135" height="64" rx="10" fill="#171527"/>
+      <text x="76" y="402" font-weight="700" fill="#fff">api.js</text>
+      <text x="76" y="422" fill="#94a3b8">REST + JWT</text>
+
+      <rect x="205" y="378" width="135" height="64" rx="10" fill="#171527"/>
+      <text x="221" y="402" font-weight="700" fill="#fff">ws.js</text>
+      <text x="221" y="422" fill="#94a3b8">live channels</text>
+
+      <rect x="60" y="452" width="280" height="58" rx="10" fill="#171527"/>
+      <text x="76" y="476" font-weight="700" fill="#fff">Components</text>
+      <text x="76" y="496" fill="#94a3b8">Sidebar · BetSlip · LiveTicker</text>
+    </g>
+    <text x="60" y="600" font-size="12" fill="#475569">Vite dev proxy →  /api  &amp;  /ws  → :4000</text>
+  </g>
+
+  <!-- ============ SERVER COLUMN ============ -->
+  <g>
+    <rect x="440" y="110" width="340" height="540" rx="18" fill="#0d0c16" stroke="#00e701" stroke-opacity="0.4"/>
+    <text x="460" y="142" font-size="16" font-weight="800" fill="#3dff7a">SERVER · Node + Express + ws</text>
+
+    <g font-size="13">
+      <rect x="460" y="160" width="300" height="64" rx="10" fill="#171527"/>
+      <text x="476" y="184" font-weight="700" fill="#fff">REST Routes</text>
+      <text x="476" y="204" fill="#94a3b8">/auth /sports /casino /bonus /games</text>
+
+      <rect x="460" y="234" width="300" height="64" rx="10" fill="#171527"/>
+      <text x="476" y="258" font-weight="700" fill="#fff">WebSocket Hub  /ws</text>
+      <text x="476" y="278" fill="#94a3b8">channels: crash · roulette · jackpot · activity</text>
+
+      <rect x="460" y="308" width="145" height="92" rx="10" fill="#1d1b30"/>
+      <text x="476" y="330" font-weight="700" fill="#7c5cff">Game Engines</text>
+      <text x="476" y="350" fill="#94a3b8">Crash</text>
+      <text x="476" y="368" fill="#94a3b8">Roulette</text>
+      <text x="476" y="386" fill="#94a3b8">Jackpot · Dice</text>
+
+      <rect x="615" y="308" width="145" height="92" rx="10" fill="#1d1b30"/>
+      <text x="631" y="330" font-weight="700" fill="#00e701">Provably Fair</text>
+      <text x="631" y="350" fill="#94a3b8">SHA-256</text>
+      <text x="631" y="368" fill="#94a3b8">HMAC seeds</text>
+      <text x="631" y="386" fill="#94a3b8">commit/reveal</text>
+
+      <rect x="460" y="410" width="300" height="64" rx="10" fill="#171527"/>
+      <text x="476" y="434" font-weight="700" fill="#fff">Services</text>
+      <text x="476" y="454" fill="#94a3b8">oddsApi · store · bonus · sportsBetting</text>
+
+      <rect x="460" y="484" width="300" height="58" rx="10" fill="#171527"/>
+      <text x="476" y="508" font-weight="700" fill="#fff">In-memory Store</text>
+      <text x="476" y="528" fill="#94a3b8">users · balances · bets · activity</text>
+
+      <rect x="460" y="552" width="300" height="48" rx="10" fill="#171527"/>
+      <text x="476" y="581" font-weight="700" fill="#fff">TTL Cache  <tspan fill="#94a3b8" font-weight="400">· protects API quota</tspan></text>
+    </g>
+  </g>
+
+  <!-- ============ EXTERNAL COLUMN ============ -->
+  <g>
+    <rect x="860" y="110" width="300" height="250" rx="18" fill="#0d0c16" stroke="#ffb800" stroke-opacity="0.4"/>
+    <text x="880" y="142" font-size="16" font-weight="800" fill="#ffb800">EXTERNAL</text>
+    <rect x="880" y="160" width="260" height="86" rx="10" fill="#171527"/>
+    <text x="896" y="186" font-weight="700" fill="#fff" font-size="13">The Odds API v4</text>
+    <text x="896" y="208" fill="#94a3b8" font-size="12">/sports · /odds · /scores</text>
+    <text x="896" y="228" fill="#94a3b8" font-size="12">40+ sports · 200+ bookmakers</text>
+    <rect x="880" y="258" width="260" height="80" rx="10" fill="#171527"/>
+    <text x="896" y="284" font-weight="700" fill="#fff" font-size="13">Mock Mode Fallback</text>
+    <text x="896" y="306" fill="#94a3b8" font-size="12">deterministic seeded odds</text>
+    <text x="896" y="324" fill="#94a3b8" font-size="12">zero-config offline / CI</text>
+
+    <rect x="860" y="392" width="300" height="258" rx="18" fill="#0d0c16" stroke="#22d3ee" stroke-opacity="0.35"/>
+    <text x="880" y="424" font-size="16" font-weight="800" fill="#22d3ee">DATA CONTRACTS</text>
+    <g font-size="12" fill="#94a3b8">
+      <text x="880" y="452" fill="#fff" font-weight="700">REST frame</text>
+      <text x="880" y="472">{ sports, events, bet, bonuses }</text>
+      <text x="880" y="500" fill="#fff" font-weight="700">WS frame</text>
+      <text x="880" y="520">{ channel, type, data }</text>
+      <text x="880" y="548" fill="#fff" font-weight="700">Auth</text>
+      <text x="880" y="568">Bearer JWT (demo guest)</text>
+      <text x="880" y="596" fill="#fff" font-weight="700">Odds event</text>
+      <text x="880" y="616">bookmakers[].markets[].outcomes[]</text>
+    </g>
+  </g>
+
+  <!-- arrows -->
+  <line x1="360" y1="410" x2="455" y2="410" stroke="#7c5cff" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="368" y="400" font-size="11" fill="#9d7bff">HTTPS/JSON</text>
+  <line x1="455" y1="266" x2="360" y2="266" stroke="#00e701" stroke-width="2.5" marker-end="url(#arrowG)"/>
+  <text x="372" y="256" font-size="11" fill="#3dff7a">WS push</text>
+  <line x1="780" y1="200" x2="875" y2="200" stroke="#ffb800" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="780" y1="440" x2="855" y2="500" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4"/>
+</svg>

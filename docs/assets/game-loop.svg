@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0911"/><stop offset="1" stop-color="#12111f"/></linearGradient>
+    <marker id="ga" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#7c5cff"/></marker>
+  </defs>
+  <rect width="1200" height="420" fill="url(#gbg)"/>
+  <text x="40" y="48" font-size="24" font-weight="800" fill="#fff">Realtime Game Loop — Server State Machine</text>
+  <text x="40" y="74" font-size="14" fill="#64748b">Each engine (Crash · Roulette · Jackpot) is an EventEmitter; transitions broadcast a { channel, type, data } WS frame.</text>
+
+  <!-- Crash lane -->
+  <text x="40" y="130" font-size="14" font-weight="800" fill="#9d7bff">CRASH</text>
+  <g font-size="13" font-weight="700">
+    <rect x="120" y="108" width="150" height="48" rx="12" fill="#1d1b30" stroke="#7c5cff" stroke-opacity="0.5"/><text x="195" y="137" text-anchor="middle" fill="#fff">betting · 5s</text>
+    <rect x="340" y="108" width="170" height="48" rx="12" fill="#1d1b30" stroke="#00e701" stroke-opacity="0.5"/><text x="425" y="137" text-anchor="middle" fill="#fff">running · curve↑</text>
+    <rect x="580" y="108" width="150" height="48" rx="12" fill="#1d1b30" stroke="#ff3b5c" stroke-opacity="0.5"/><text x="655" y="137" text-anchor="middle" fill="#fff">crashed · 3.5s</text>
+  </g>
+  <line x1="270" y1="132" x2="338" y2="132" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <line x1="510" y1="132" x2="578" y2="132" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <path d="M655 156 q0 60 -230 60 q-230 0 -230 -56" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ga)"/>
+  <text x="760" y="137" font-size="12" fill="#64748b">tick every 80ms · auto-cashout checks · bust at HMAC point</text>
+
+  <!-- Roulette lane -->
+  <text x="40" y="250" font-size="14" font-weight="800" fill="#3dff7a">ROULETTE</text>
+  <g font-size="13" font-weight="700">
+    <rect x="120" y="228" width="150" height="48" rx="12" fill="#1d1b30" stroke="#7c5cff" stroke-opacity="0.5"/><text x="195" y="257" text-anchor="middle" fill="#fff">betting · 12s</text>
+    <rect x="340" y="228" width="170" height="48" rx="12" fill="#1d1b30" stroke="#ffb800" stroke-opacity="0.5"/><text x="425" y="257" text-anchor="middle" fill="#fff">spinning · 4.5s</text>
+    <rect x="580" y="228" width="150" height="48" rx="12" fill="#1d1b30" stroke="#00e701" stroke-opacity="0.5"/><text x="655" y="257" text-anchor="middle" fill="#fff">ended · settle</text>
+  </g>
+  <line x1="270" y1="252" x2="338" y2="252" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <line x1="510" y1="252" x2="578" y2="252" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <path d="M655 276 q0 60 -230 60 q-230 0 -230 -56" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ga)"/>
+  <text x="760" y="257" font-size="12" fill="#64748b">slot = HMAC mod 15 · pay winners 2× / 14× green</text>
+
+  <!-- Jackpot lane -->
+  <text x="40" y="372" font-size="14" font-weight="800" fill="#ffb800">JACKPOT</text>
+  <g font-size="13" font-weight="700">
+    <rect x="120" y="350" width="150" height="48" rx="12" fill="#1d1b30" stroke="#7c5cff" stroke-opacity="0.5"/><text x="195" y="379" text-anchor="middle" fill="#fff">open</text>
+    <rect x="340" y="350" width="170" height="48" rx="12" fill="#1d1b30" stroke="#22d3ee" stroke-opacity="0.5"/><text x="425" y="379" text-anchor="middle" fill="#fff">counting · 30s</text>
+    <rect x="580" y="350" width="150" height="48" rx="12" fill="#1d1b30" stroke="#00e701" stroke-opacity="0.5"/><text x="655" y="379" text-anchor="middle" fill="#fff">drawing · pay</text>
+  </g>
+  <line x1="270" y1="374" x2="338" y2="374" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <line x1="510" y1="374" x2="578" y2="374" stroke="#7c5cff" stroke-width="2" marker-end="url(#ga)"/>
+  <text x="760" y="379" font-size="12" fill="#64748b">winner ∝ stake weight · 5% rake · reopen after 6s</text>
+</svg>

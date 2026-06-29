@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0911"/><stop offset="1" stop-color="#0d0c16"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9d7bff"/><stop offset="1" stop-color="#ff4d8d"/></linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#171527"/><stop offset="1" stop-color="#0d0c16"/></linearGradient>
+    <radialGradient id="hg" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7c5cff" stop-opacity="0.4"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#page)"/>
+
+  <!-- ===== Sidebar ===== -->
+  <rect x="0" y="0" width="240" height="800" fill="#0d0c16"/>
+  <line x1="240" y1="0" x2="240" y2="800" stroke="#fff" stroke-opacity="0.05"/>
+  <g transform="translate(20,22)">
+    <rect width="34" height="34" rx="9" fill="#0d0c16" stroke="url(#brand)" stroke-width="1.5"/>
+    <text x="10" y="24" font-size="20" font-weight="900" fill="url(#brand)">C</text>
+    <text x="46" y="25" font-size="22" font-weight="800" fill="#fff">Cr<tspan fill="url(#brand)">ow</tspan></text>
+  </g>
+  <g font-size="14" font-weight="600">
+    <rect x="14" y="78" width="212" height="40" rx="11" fill="#171527"/><rect x="14" y="78" width="3" height="40" rx="2" fill="#7c5cff"/>
+    <text x="44" y="103" fill="#fff">Home</text><circle cx="28" cy="98" r="6" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <text x="44" y="148" fill="#94a3b8">Sports</text><circle cx="28" cy="143" r="6" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="178" y="130" width="42" height="20" rx="6" fill="#ff3b5c" fill-opacity="0.15"/><text x="186" y="144" font-size="10" fill="#ff3b5c" font-weight="700">LIVE</text>
+    <text x="44" y="193" fill="#94a3b8">Casino</text><rect x="22" y="180" width="12" height="12" rx="3" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <text x="44" y="238" fill="#94a3b8">Crash</text><path d="M22 240 l5-6 4 4 6-9" stroke="#7c5cff" stroke-width="1.6" fill="none"/>
+    <text x="44" y="283" fill="#94a3b8">X-Roulette</text><circle cx="28" cy="278" r="6" fill="none" stroke="#00e701" stroke-width="1.5"/>
+    <text x="44" y="328" fill="#94a3b8">Jackpot</text><path d="M28 318 l2 5 5 .5 -4 4 1 5 -4 -3 -4 3 1 -5 -4 -4 5 -.5z" fill="#ffb800"/>
+    <text x="44" y="373" fill="#94a3b8">Rewards</text><rect x="22" y="362" width="12" height="10" rx="2" fill="none" stroke="#ff4d8d" stroke-width="1.5"/>
+  </g>
+  <rect x="14" y="420" width="212" height="86" rx="14" fill="#12111f" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="30" y="448" font-size="12.5" font-weight="700" fill="#fff">🛡 Provably Fair</text>
+  <text x="30" y="470" font-size="11" fill="#64748b">Every round verifiable</text>
+  <text x="30" y="486" font-size="11" fill="#64748b">with SHA-256 seeds.</text>
+
+  <!-- ===== Topbar ===== -->
+  <rect x="240" y="0" width="1040" height="64" fill="#0d0c16"/>
+  <line x1="240" y1="64" x2="1280" y2="64" stroke="#fff" stroke-opacity="0.05"/>
+  <rect x="268" y="16" width="340" height="34" rx="10" fill="#171527"/>
+  <text x="296" y="38" font-size="13" fill="#64748b">Search games, teams, markets…</text>
+  <rect x="900" y="14" width="120" height="38" rx="11" fill="#171527"/>
+  <text x="918" y="32" font-size="13" font-family="JetBrains Mono, monospace" font-weight="700" fill="#fff">10,000.00</text>
+  <text x="918" y="46" font-size="9" fill="#64748b">CREDITS</text>
+  <rect x="1032" y="14" width="104" height="38" rx="11" fill="#00e701"/><text x="1052" y="38" font-size="13" font-weight="800" fill="#000">+ Deposit</text>
+  <rect x="1148" y="14" width="110" height="38" rx="11" fill="#171527"/>
+  <circle cx="1168" cy="33" r="13" fill="#7c5cff"/><text x="1163" y="38" font-size="12" font-weight="700" fill="#fff">D</text>
+  <text x="1188" y="30" font-size="12" font-weight="700" fill="#fff">demo</text><text x="1188" y="44" font-size="10" fill="#ffb800">Lvl 1</text>
+
+  <!-- ===== Hero ===== -->
+  <rect x="268" y="86" width="984" height="220" rx="22" fill="url(#hero)" stroke="#fff" stroke-opacity="0.05"/>
+  <circle cx="1120" cy="120" r="170" fill="url(#hg)"/>
+  <rect x="296" y="112" width="220" height="26" rx="13" fill="#00e701" fill-opacity="0.1"/>
+  <text x="312" y="129" font-size="11" font-weight="700" fill="#3dff7a">⚡ Instant payouts · Provably fair</text>
+  <text x="294" y="186" font-size="38" font-weight="900" fill="#fff">Bet on <tspan fill="url(#brand)">everything.</tspan></text>
+  <text x="294" y="226" font-size="30" font-weight="800" fill="#fff">Sports, Crash &amp; Casino.</text>
+  <rect x="296" y="248" width="190" height="42" rx="12" fill="url(#brand)"/><text x="322" y="274" font-size="14" font-weight="800" fill="#fff">Explore Sportsbook</text>
+  <rect x="500" y="248" width="150" height="42" rx="12" fill="#1d1b30"/><text x="528" y="274" font-size="14" font-weight="700" fill="#e2e8f0">Enter Casino</text>
+
+  <!-- ===== Originals ===== -->
+  <text x="268" y="346" font-size="17" font-weight="800" fill="#fff">🔥 Crow Originals</text>
+  <g>
+    <rect x="268" y="362" width="234" height="120" rx="16" fill="#1a1330" stroke="#fff" stroke-opacity="0.05"/>
+    <path d="M292 392 l8 8 6 -10 10 -14" stroke="#7c5cff" stroke-width="2.5" fill="none"/>
+    <text x="288" y="446" font-size="16" font-weight="800" fill="#fff">Crash</text><text x="288" y="468" font-size="11" fill="#94a3b8">Ride the curve, cash out.</text>
+
+    <rect x="518" y="362" width="234" height="120" rx="16" fill="#12251a" stroke="#fff" stroke-opacity="0.05"/>
+    <circle cx="546" cy="398" r="12" fill="none" stroke="#00e701" stroke-width="2.5"/>
+    <text x="538" y="446" font-size="16" font-weight="800" fill="#fff">X-Roulette</text><text x="538" y="468" font-size="11" fill="#94a3b8">Red, black or 14× green.</text>
+
+    <rect x="768" y="362" width="234" height="120" rx="16" fill="#2a230f" stroke="#fff" stroke-opacity="0.05"/>
+    <path d="M548 0" /><path d="M790 386 l3 7 8 .7 -6 6 1.5 8 -6.5 -4 -6.5 4 1.5 -8 -6 -6 8 -.7z" transform="translate(0,0)" fill="#ffb800"/>
+    <text x="788" y="446" font-size="16" font-weight="800" fill="#fff">Jackpot</text><text x="788" y="468" font-size="11" fill="#94a3b8">Winner takes the pot.</text>
+
+    <rect x="1018" y="362" width="234" height="120" rx="16" fill="#2a1322" stroke="#fff" stroke-opacity="0.05"/>
+    <rect x="1030" y="384" width="22" height="22" rx="6" fill="none" stroke="#ff4d8d" stroke-width="2"/><circle cx="1037" cy="391" r="2" fill="#ff4d8d"/><circle cx="1045" cy="399" r="2" fill="#ff4d8d"/>
+    <text x="1038" y="446" font-size="16" font-weight="800" fill="#fff">Dice</text><text x="1038" y="468" font-size="11" fill="#94a3b8">Instant 99% RTP roll.</text>
+  </g>
+
+  <!-- ===== Featured matches ===== -->
+  <text x="268" y="524" font-size="17" font-weight="800" fill="#fff">⚽ Featured Matches</text>
+  <rect x="1120" y="510" width="132" height="22" rx="8" fill="#171527"/><text x="1134" y="525" font-size="10.5" fill="#94a3b8">MOCK DATA · 500 left</text>
+  <text x="268" y="552" font-size="12" font-weight="700" fill="#64748b">ENGLISH PREMIER LEAGUE</text>
+
+  <!-- 3 event cards -->
+  <g font-size="13">
+    <!-- card 1 -->
+    <rect x="268" y="566" width="318" height="210" rx="16" fill="#12111f" stroke="#fff" stroke-opacity="0.06"/>
+    <text x="288" y="592" font-size="10.5" fill="#64748b" font-weight="700">EPL</text>
+    <rect x="520" y="580" width="48" height="20" rx="6" fill="#ff3b5c" fill-opacity="0.15"/><text x="528" y="594" font-size="10" fill="#ff3b5c">● LIVE</text>
+    <text x="288" y="626" font-weight="700" fill="#fff">Arsenal</text><text x="540" y="626" font-size="11" fill="#64748b">Home</text>
+    <text x="288" y="652" font-weight="700" fill="#fff">Man City</text><text x="540" y="652" font-size="11" fill="#64748b">Away</text>
+    <rect x="288" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="334" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Arsenal</text><text x="334" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">1.50</text>
+    <rect x="386" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="432" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Draw</text><text x="432" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">4.20</text>
+    <rect x="484" y="672" width="92" height="48" rx="9" fill="#1a1430" stroke="#7c5cff"/><text x="530" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Man City</text><text x="530" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">2.10</text>
+
+    <!-- card 2 -->
+    <rect x="601" y="566" width="318" height="210" rx="16" fill="#12111f" stroke="#fff" stroke-opacity="0.06"/>
+    <text x="621" y="592" font-size="10.5" fill="#64748b" font-weight="700">EPL</text>
+    <rect x="855" y="580" width="44" height="20" rx="6" fill="#242238"/><text x="865" y="594" font-size="10" fill="#94a3b8">3h</text>
+    <text x="621" y="626" font-weight="700" fill="#fff">Liverpool</text><text x="873" y="626" font-size="11" fill="#64748b">Home</text>
+    <text x="621" y="652" font-weight="700" fill="#fff">Chelsea</text><text x="873" y="652" font-size="11" fill="#64748b">Away</text>
+    <rect x="621" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="667" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Liverpool</text><text x="667" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">1.85</text>
+    <rect x="719" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="765" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Draw</text><text x="765" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">3.60</text>
+    <rect x="817" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="863" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Chelsea</text><text x="863" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">2.45</text>
+
+    <!-- card 3 -->
+    <rect x="934" y="566" width="318" height="210" rx="16" fill="#12111f" stroke="#fff" stroke-opacity="0.06"/>
+    <text x="954" y="592" font-size="10.5" fill="#64748b" font-weight="700">EPL</text>
+    <rect x="1188" y="580" width="44" height="20" rx="6" fill="#242238"/><text x="1198" y="594" font-size="10" fill="#94a3b8">6h</text>
+    <text x="954" y="626" font-weight="700" fill="#fff">Tottenham</text><text x="1206" y="626" font-size="11" fill="#64748b">Home</text>
+    <text x="954" y="652" font-weight="700" fill="#fff">Newcastle</text><text x="1206" y="652" font-size="11" fill="#64748b">Away</text>
+    <rect x="954" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="1000" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Spurs</text><text x="1000" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">2.05</text>
+    <rect x="1052" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="1098" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Draw</text><text x="1098" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">3.40</text>
+    <rect x="1150" y="672" width="92" height="48" rx="9" fill="#171527"/><text x="1196" y="694" font-size="10" fill="#94a3b8" text-anchor="middle">Newcastle</text><text x="1196" y="712" font-size="14" font-family="JetBrains Mono, monospace" font-weight="700" fill="#3dff7a" text-anchor="middle">2.30</text>
+  </g>
+
+  <!-- ===== Live ticker ===== -->
+  <rect x="240" y="772" width="1040" height="28" fill="#0d0c16"/><line x1="240" y1="772" x2="1280" y2="772" stroke="#fff" stroke-opacity="0.05"/>
+  <text x="268" y="790" font-size="11" font-weight="800" fill="#3dff7a">● LIVE WINS</text>
+  <rect x="360" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="370" y="791" font-size="10" fill="#94a3b8">degenDan · Crash <tspan fill="#3dff7a">+1,240</tspan></text>
+  <rect x="520" y="778" width="150" height="18" rx="5" fill="#171527"/><text x="530" y="791" font-size="10" fill="#94a3b8">moonshot · Dice <tspan fill="#3dff7a">+580</tspan></text>
+  <rect x="680" y="778" width="160" height="18" rx="5" fill="#171527"/><text x="690" y="791" font-size="10" fill="#94a3b8">cryptoKing · Roulette <tspan fill="#3dff7a">+2,800</tspan></text>
+</svg>
