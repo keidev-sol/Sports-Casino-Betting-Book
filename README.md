@@ -50,6 +50,7 @@ a shared community jackpot, and a rewards engine — wrapped in a slick dark-neo
 - [🗂️ Project Structure](#️-project-structure)
 - [🧰 Tech Stack](#-tech-stack)
 - [🗺️ Roadmap](#️-roadmap)
+- [📬 Contact](#-contact)
 - [📜 License & Disclaimer](#-license--disclaimer)
 
 <br/>
@@ -387,6 +388,24 @@ Sports-Betting-Project/
 
 <br/>
 
+## 📬 Contact
+
+Questions, feedback, or want a custom build? Get in touch:
+
+<p>
+  <a href="https://t.me/Kei4650">
+    <img alt="Telegram" src="https://img.shields.io/badge/Telegram-%40Kei4650-229ED9?logo=telegram&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
+
+| Channel | Link |
+|---------|------|
+| 💬 **Telegram** | [@Kei4650](https://t.me/Kei4650) |
+
+> Open to freelance work, collaborations, and feature requests for this project.
+
+<br/>
+
 ## 📜 License & Disclaimer
 
 Released under the **[MIT License](LICENSE)**.
@@ -396,4 +415,6 @@ Released under the **[MIT License](LICENSE)**.
 <div align="center">
 <br/>
 <sub>Built with ⚡ as a demonstration of live odds, realtime games, and provably-fair design.</sub>
+<br/>
+<sub>📬 <a href="https://t.me/Kei4650">Telegram @Kei4650</a></sub>
 </div>
